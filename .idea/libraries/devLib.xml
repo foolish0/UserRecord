@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="devLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/devLib/org.apache.taglibs.taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/org.eclipse.jetty.apache-jsp-9.4.8.v20171121.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/org.apache.taglibs.taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/asm-6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/jetty-all-9.4.8.v20171121-uber.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/org.mortbay.jasper.apache-el-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/org.mortbay.jasper.apache-jsp-8.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/org.eclipse.jdt.ecj-3.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/devLib/asm-commons-6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

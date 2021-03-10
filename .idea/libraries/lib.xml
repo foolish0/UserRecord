@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/eclipselink.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/DON-core1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/bcprov-jdk15on-157.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javassist-3.23.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-compress-1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xmlbeans-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-ooxml-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/qcloudsms-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.persistence-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-ooxml-schemas-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/windfly-util-1.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
