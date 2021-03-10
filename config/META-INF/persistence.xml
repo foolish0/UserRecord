@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            
+            
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1/heihei?useUnicode=true&amp;rewriteBatchedStatements=true&amp;characterEncoding=UTF-8&amp;useSSL=false&amp;serverTimezone=Shanghai"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="0625"  />
+            
+
+			<property name="eclipselink.connection-pool.default.wait" value="600000"  />
+			 <!-- <property name="eclipselink.logging.file" value="output.log"/> -->
+			<property name="eclipselink.logging.parameters" value="true" />
+			<property name="eclipselink.logging.level.sql" value="fine" />
+            <property name="eclipselink.logging.level" value="info"/>
+           <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/> 
+            <!-- 是否开启二级缓存，eclipselink默认开启 -->
+			<property name="eclipselink.cache.shared.default" value="false"/>
+			<!-- <property name="eclipselink.session.customizer" value="cn.windfly.util.db.EclipselinkLinuxMysqlDBTableNameToLowcaseCustomizer"/>
+ -->
+        </properties>
+    </persistence-unit>
+</persistence>

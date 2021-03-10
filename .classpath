@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="devLib/asm-6.0.jar"/>
+	<classpathentry kind="lib" path="devLib/asm-commons-6.0.jar"/>
+	<classpathentry kind="lib" path="devLib/jetty-all-9.4.8.v20171121-uber.jar"/>
+	<classpathentry kind="lib" path="devLib/org.apache.taglibs.taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="devLib/org.apache.taglibs.taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="devLib/org.eclipse.jdt.ecj-3.12.3.jar"/>
+	<classpathentry kind="lib" path="devLib/org.eclipse.jetty.apache-jsp-9.4.8.v20171121.jar"/>
+	<classpathentry kind="lib" path="devLib/org.mortbay.jasper.apache-el-8.5.23.jar"/>
+	<classpathentry kind="lib" path="devLib/org.mortbay.jasper.apache-jsp-8.5.23.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/bcprov-jdk15on-157.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/DON-core1.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javassist-3.23.1-GA.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/qcloudsms-1.0.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/windfly-util-1.2.4.jar"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>
