@@ -21,7 +21,7 @@ public class ControllerBase {
 				.getOrganizationEntity().getId();
 	}
 	
-	protected String getWeixinOpenId(HttpServletRequest request) {
+	protected String getWeChatOpenId(HttpServletRequest request) {
 		String header = request.getHeader("token");
 		if (header == null) {
 			return null;

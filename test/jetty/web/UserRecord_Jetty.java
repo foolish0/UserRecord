@@ -8,9 +8,6 @@ import org.eclipse.jetty.webapp.WebAppContext;
 
 /**
  * 使用Jetty运行调试Web应用
- * 
- * @author DingFengHua
- * @since 2012-3-7
  */
 public class UserRecord_Jetty {
 	

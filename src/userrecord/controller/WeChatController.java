@@ -26,11 +26,8 @@ import userrecord.entity.OrganizationEntity;
 
 /**
  * 手机APP请求接口
- * 
- * @author DFH
- *
  */
-public class WeixinController extends ControllerBase {
+public class WeChatController extends ControllerBase {
 
 	// 网页授权获取用户信息
 	// http://localhost/UserRecord/Weixin/weixinValidationPage.dhtml?backurl=http%3A%2F%2Ftest.cn%3Fa%3D1
@@ -117,48 +114,48 @@ public class WeixinController extends ControllerBase {
 	}
 
 	public JsonResult fillUserInfo(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		appService.fillUserInfo(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		appService.fillUserInfo(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult();
 	}
 
 	public JsonResult createAndBindOrg(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		long id = appService.createAndBindOrg(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		long id = appService.createAndBindOrg(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult(MapUtil.toMap("oid", id));
 	}
 
 	public JsonResult addRecord(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		appService.addRecord(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		appService.addRecord(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult();
 	}
 
 	public JsonResult addRecordNoid(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		appService.addRecordNoid(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		appService.addRecordNoid(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult();
 	}
 
 	public JsonResult findRecord(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		return JsonResult.newSuccessResult(appService.findRecord(paramsMap, weixinOpenId));
+		String weChatOpenId = getWeChatOpenId(request);
+		return JsonResult.newSuccessResult(appService.findRecord(paramsMap, weChatOpenId));
 	}
 
 	public JsonResult findUser(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		return JsonResult.newSuccessResult(appService.findUser(paramsMap, weixinOpenId));
+		String weChatOpenId = getWeChatOpenId(request);
+		return JsonResult.newSuccessResult(appService.findUser(paramsMap, weChatOpenId));
 	}
 
 	public JsonResult modifyRecord(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		appService.modifyRecord(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		appService.modifyRecord(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult();
 	}
 
 	public JsonResult modifyUser(TypeMap paramsMap, HttpServletRequest request) throws MessageException {
-		String weixinOpenId = getWeixinOpenId(request);
-		appService.modifyUser(paramsMap, weixinOpenId);
+		String weChatOpenId = getWeChatOpenId(request);
+		appService.modifyUser(paramsMap, weChatOpenId);
 		return JsonResult.newSuccessResult();
 	}
 }
